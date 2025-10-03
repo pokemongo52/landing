@@ -1,5 +1,142 @@
-<!doctype html>
-<html>
-<head><meta charset="utf-8"><title>Test</title></head>
-<body><h1>Site works</h1></body>
-</html>
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CS2 Boost — Оплата скинами</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: Arial, sans-serif;
+      background: #0d0d0d;
+      color: #fff;
+      line-height: 1.6;
+    }
+
+    /* Шапка */
+    header {
+      height: 100vh;
+      background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), 
+                  url("https://cdn.cloudflare.steamstatic.com/apps/csgo/blog/images/fb_image.png") center/cover no-repeat;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 20px;
+    }
+    header h1 {
+      font-size: 3em;
+      margin-bottom: 20px;
+      text-transform: uppercase;
+      color: #ffcc00;
+    }
+    header p {
+      font-size: 1.2em;
+      margin-bottom: 25px;
+      max-width: 600px;
+    }
+    .btn {
+      display: inline-block;
+      padding: 12px 25px;
+      font-size: 1.2em;
+      background: #ffcc00;
+      color: #000;
+      text-decoration: none;
+      border-radius: 8px;
+      transition: 0.3s;
+    }
+    .btn:hover {
+      background: #ffaa00;
+      transform: scale(1.05);
+    }
+
+    /* Секции */
+    section {
+      padding: 60px 20px;
+      text-align: center;
+      max-width: 1000px;
+      margin: auto;
+    }
+    section h2 {
+      font-size: 2.5em;
+      margin-bottom: 20px;
+      color: #ffcc00;
+    }
+    section p {
+      font-size: 1.1em;
+      color: #ddd;
+      margin-bottom: 30px;
+    }
+
+    /* Цены */
+    .pricing {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    .card {
+      background: #1a1a1a;
+      padding: 25px;
+      border-radius: 12px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+      transition: 0.3s;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 6px 20px rgba(0,0,0,0.7);
+    }
+    .card h3 {
+      margin-bottom: 10px;
+      color: #ffcc00;
+    }
+    .card p {
+      margin-bottom: 15px;
+    }
+
+    /* Подвал */
+    footer {
+      background: #111;
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9em;
+      color: #aaa;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Шапка -->
+  <header>
+    <h1>CS2 Boost</h1>
+    <p>Быстрый и надежный буст в Counter-Strike 2. Оплата скинами или кейсами через Steam Trade Offer.</p>
+    <a href="https://steamcommunity.com/tradeoffer/new/?partner=1162762510&token=RGWhImKg" target="_blank" class="btn">💎 Оплатить скинами</a>
+  </header>
+
+  <!-- О нас -->
+  <section id="about">
+    <h2>Почему именно мы?</h2>
+    <p>✅ Буст с софтом <br>
+       ✅ Конфиденциальность и безопасность <br>
+       ✅ Оплата без реальных денег — только скины или кейсы</p>
+  </section>
+
+  <!-- Услуги -->
+  <section id="pricing">
+    <h2>Тарифы</h2>
+    <div class="pricing">
+      <div class="card">
+        <h3>1 ранг</h3>
+        <p>Повышение на 1 звание</p>
+        <p><strong>от 2–3 ключей</strong></p>
+        <a href="https://steamcommunity.com/tradeoffer/new/?partner=1162762510&token=RGWhImKg" target="_blank" class="btn">Заказать</a>
+      </div>
+      <div class="card">
+        <h3>5 рангов</h3>
+        <p>Пакет на 5 званий</p>
+        <p><strong>от 10–12 ключей</strong></p>
+        <a href="https://steamcommunity.com/tradeoffer/new/?part
